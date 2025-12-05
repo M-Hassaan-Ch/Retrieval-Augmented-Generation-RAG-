@@ -112,7 +112,7 @@ def main():
         k_docs = st.sidebar.slider(
             "Number of documents to retrieve (k):",
             min_value=1,
-            max_value=10,
+            max_value=20,
             value=5,
             step=1
         )
